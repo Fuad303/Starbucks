@@ -327,6 +327,7 @@
     .footer ul li{
         margin-right: 0;
         max-width: none;
+        text-align: center;
     }
 }
 .copyright{
