@@ -265,8 +265,11 @@
     font-weight: 100;
 }
 @media (max-width: 768px){
-    .wrapper{
+    .wrapper:nth-child(2n+1){
         flex-direction: column;
+    }
+    .wrapper:nth-child(even){
+        flex-direction: column-reverse;
     }
     .title{
         padding-top: 0;
