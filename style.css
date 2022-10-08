@@ -5,6 +5,13 @@
     font-family: "SoDo Sans SemiBold", Helvetica Neue,Helvetica,Arial,sans-serif;    
     transition: 0.4s all;
 }
+body a{
+    text-decoration: none;
+    color: black;
+}
+body a:hover{
+    color: black;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -68,6 +75,10 @@
 }
 .navbar-right button:last-child:hover{
     background-color: rgba(0, 0, 0, 0.7);
+}
+.join-now a,
+.join-now a:hover{
+    color: #ffffff;
 }
 @media (max-width: 768px){
     .navbar-right{
